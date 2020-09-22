@@ -1,0 +1,78 @@
+
+
+/*hader*/
+
+
+/*Estilos el Header*/
+.site-headerinicio{
+    background-size: cover;
+    height: 10vh;
+    min-height: 5rem;
+    background-color: black;
+}
+
+.barra{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;  
+}
+
+.navegacion a{
+    color: #ffffff;
+    font-family: sans-serif;
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+/*Iconos-index*/
+.contenedor h2{
+    text-align: center;
+}
+.iconos-index{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono{
+   flex-basis: calc(33.3% - 2rem) ;
+   text-align: center;
+   line-height: 2;
+}
+
+.icono h3{
+    text-transform: uppercase;
+}
+
+
+
+.barra{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;  
+    background-color: black;
+}
+
+.navegacion a{
+    color: black;
+    font-family: sans-serif;
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+.navegacion a:hover{
+    color:black;
+}
+
+/*Sección de globes*/
+body{
+    font-synthesis: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.contenedor{
+    max-width: 1100px;
+    margin: 0 auto;
+}
